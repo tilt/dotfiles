@@ -45,10 +45,10 @@ gpip(){
 }
 
 # Anaconda
-export CONDA_BIN="/Users/danielkirsch/anaconda/bin"
-export DYLD_FALLBACK_LIBRARY_PATH="/Users/danielkirsch/anaconda/lib"
-# path
-alias anaconda="export PATH=$CONDA_BIN:$PATH"
+# export CONDA_BIN="/Users/tillbreuer/anaconda/bin"
+# export DYLD_FALLBACK_LIBRARY_PATH="/Users/tillbreuer/anaconda/lib"
+# # path
+# alias anaconda="export PATH=$CONDA_BIN:$PATH"
 
 # rbenv
 export RBENV_ROOT=/usr/local/var/rbenv
@@ -56,7 +56,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export RPROMPT="\$(rbenv_prompt_info)"
 
 # nvm
-export NVM_DIR="/Users/danielkirsch/.nvm"
+export NVM_DIR="/Users/tillbreuer/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # git stuff
